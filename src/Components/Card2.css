@@ -1,0 +1,47 @@
+.card2 {
+    overflow: hidden;
+    position: relative;
+    width: 95%;
+    height: 250px;
+    
+  }
+  
+  .card2 img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+  
+    opacity: 0;
+    animation: slideAnimation 6s infinite;
+  }
+  
+  .card2 img:nth-child(1) {
+    animation-delay: 0s;
+  }
+  
+  .card2 img:nth-child(2) {
+    animation-delay: 2.5s;
+  }
+  
+  .card2 img:nth-child(3) {
+    animation-delay: 4.5s;
+  }
+  
+  @keyframes slideAnimation {
+    0% {
+      opacity: 0;
+    }
+    8% {
+      opacity: 1;
+    }
+    33% {
+      opacity: 1;
+    }
+    41% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+  
