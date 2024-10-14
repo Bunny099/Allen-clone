@@ -1,9 +1,11 @@
 import React from "react";
 import Card from "../Components/Card";
 import Card2 from "../Components/Card2";
+import Card3 from "../Components/Card3";
+import Card4 from "../Components/Card4";
 function Home() {
   return (
-    <div >
+    <div>
       <div style={{ display: "flex", justifyContent: "center" }}>
         <img
           style={{
@@ -56,14 +58,45 @@ function Home() {
       >
         <Card2 />
       </div>
-      <div style={{display:"flex",justifyContent:"center",alignItems:"center",
-        padding:"2rem 4rem"}}>
-
-        <h1 style={{fontSize:"3.7rem",color:"white"}}>Our remarkable results in 2024</h1>
+      <div
+        style={{
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+          padding: "2rem 4rem",
+        }}
+      >
+        <h1 style={{ fontSize: "3.7rem", color: "white" }}>
+          Our remarkable results in 2024
+        </h1>
       </div>
 
       <div>
-        
+        <Card3 />
+      </div>
+
+      <div style={{display:"flex",justifyContent:"center",paddingBottom:"3rem"}}>
+        <h1 style={{fontSize:"2.2rem",color:"white"}}>ALLEN App Advantage</h1>
+      </div>
+
+      <div style={{display:"flex",justifyContent:"space-between"}}>
+        <div style={{padding:"2rem",width:"30%",paddingLeft:"2rem",paddingRight:"2rem"}}>
+        <h1 style={{fontSize:"1.5rem",color:"white"}}>Achieve your dreams with the ALLEN App!</h1>
+        <p style={{fontSize:"1.3rem",color:"gray"}}>Top Kota faculty, customised study tools, and AI-powered learning—all in one app.</p>
+        <p style={{fontSize:"1.1rem",color:"GrayText"}}>All impact methodology &measurement validated by</p>
+        </div>
+        <div>
+          <img src="https://res.cloudinary.com/dpzpn3dkw/image/upload/v1724133522/misc/allenworks-03_1_v3wu3m.svg" alt="" />
+        </div>
+      </div>
+
+      <div>
+        <div>
+          <h1 style={{fontSize:"2.3rem",color:"white"}}>Discover the perfect online program</h1>
+        </div>
+        <div>
+        <Card4/>
+        </div>
       </div>
 
     </div>
