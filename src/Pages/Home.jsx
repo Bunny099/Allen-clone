@@ -90,13 +90,28 @@ function Home() {
         </div>
       </div>
 
-      <div>
+      <div style={{margin:"2rem"}}>
         <div>
           <h1 style={{fontSize:"2.3rem",color:"white"}}>Discover the perfect online program</h1>
         </div>
         <div>
         <Card4/>
         </div>
+      </div>
+
+      <div style={{margin:"4rem 2rem"}}>
+        <h1 style={{fontSize:"2.2rem",color:"white"}}>Looking for a classroom based program?</h1>
+        <div style={{display:"flex",justifyContent:"space-around",padding:"2rem",backgroundColor:"#1a2439",borderRadius:20,}}>
+          <div style={{width:"30%"}}>
+          <h1 style={{fontSize:"2.1rem",color:"white",fontWeight:"lighter"}}>Present in 53 cities with
+          250+ classrooms</h1>
+          <button style={{marginTop:"2rem",padding:"10px 24px",borderRadius:30,border:"none",fontSize:"1.3rem"}}>Find a Center</button>
+          </div>
+          <div>
+
+          </div>
+          <img style={{height:"250px",width:"520px"}} src="https://res.cloudinary.com/dpzpn3dkw/image/upload/v1707820846/Updated_size_classroom_ck4yjp.webp" alt="" />
+          </div>
       </div>
 
     </div>
