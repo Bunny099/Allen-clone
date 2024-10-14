@@ -3,7 +3,7 @@ import Card from "../Components/Card";
 import Card2 from "../Components/Card2";
 function Home() {
   return (
-    <div style={{ marginRight: 120, marginLeft: 120 }}>
+    <div >
       <div style={{ display: "flex", justifyContent: "center" }}>
         <img
           style={{
@@ -56,6 +56,16 @@ function Home() {
       >
         <Card2 />
       </div>
+      <div style={{display:"flex",justifyContent:"center",alignItems:"center",
+        padding:"2rem 4rem"}}>
+
+        <h1 style={{fontSize:"3.7rem",color:"white"}}>Our remarkable results in 2024</h1>
+      </div>
+
+      <div>
+        
+      </div>
+
     </div>
   );
 }

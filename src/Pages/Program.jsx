@@ -2,7 +2,7 @@ import React from 'react'
 
 function Program() {
   return (
-    <div style={{margin:"120px 120px"}}>
+    <div >
     <h1 style={{fontSize:"2rem",color:"white"}}>Online Programs</h1>
   </div>
   )

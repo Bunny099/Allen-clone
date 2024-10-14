@@ -9,8 +9,7 @@ function Allen() {
         style={{
           display: "flex",
           justifyContent: "space-between",
-          marginRight: 120,
-          marginLeft: 120,
+          
           textAlign: "center",
           marginTop: 20,
         }}
