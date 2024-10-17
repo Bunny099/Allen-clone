@@ -1,0 +1,15 @@
+.footer{
+   
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    padding: 3rem;
+    
+}
+.footer div p{
+    cursor: pointer;
+    color: gray;
+}
+.footer div h3{
+    cursor: pointer;
+    color: white;
+}
