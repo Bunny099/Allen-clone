@@ -7,9 +7,10 @@
 }
 .footer div p{
     cursor: pointer;
-    color: gray;
+    color: #777676;
 }
 .footer div h3{
     cursor: pointer;
     color: white;
+    
 }

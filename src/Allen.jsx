@@ -1,7 +1,7 @@
 import React from "react";
 import { Outlet } from "react-router";
 import { BrowserRouter, Link, NavLink, Router } from "react-router-dom";
-
+import Footer from "./Components/Footer";
 function Allen() {
   return (
     <>
@@ -17,7 +17,7 @@ function Allen() {
         <div className="header" style={{ display: "flex" }}>
           <NavLink to={"/"}>
             <img
-              style={{ height: 34, margin: 3, marginBottom: 15 }}
+              style={{ height: 28, margin: 3, marginBottom: 15 }}
               src="https://allen.in/logo_dark.svg"
               alt=""
             />
@@ -53,6 +53,9 @@ function Allen() {
         </div>
       </div>
       <Outlet />
+      <div>
+      <Footer/>
+      </div>
     </>
   );
 }
