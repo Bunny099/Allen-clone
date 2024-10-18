@@ -1,6 +1,7 @@
 import React from 'react'
 import ExamHero from '../Components/ExamHero'
 import Card4 from '../Components/Card4'
+import ExamOffer from '../Components/ExamOffer'
 
 function Exams() {
   return (
@@ -22,6 +23,13 @@ function Exams() {
       <img style={{cursor:"pointer"}} width={"97%"} src="https://res.cloudinary.com/dpzpn3dkw/image/upload/v1727296954/Carousel_j1svii.webp" alt="" />
      </div>
 
+      <div>
+        <ExamOffer/>
+      </div>
+
+      <div>
+        
+      </div>
      
     </div>
   )
